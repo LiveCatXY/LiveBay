@@ -1,7 +1,8 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import ContentLayout from "@/layouts/content-layout.astro";
 import MusicPlayer from 'astro-netease-player/MusicPlayer.astro';
+
+import ContentLayout from "@/layouts/content-layout.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("xyy");
