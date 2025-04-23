@@ -30,3 +30,6 @@ top: 2
 4. 后端：NodeJS
 5. 特长：图形学，Babylon引擎
 6. 领域：教育、游戏、设计
+
+![My IT Skills 2](/images/my-it-skills2.excalidraw.svg)
+![My IT Skills 1](/images/my-it-skills1.excalidraw.svg)
