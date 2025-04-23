@@ -21,7 +21,7 @@ top: 1
 
 最后是显示层。
 
-![LiveStack](/images/live-stack.svg)
+![LiveStack](/images/live-stack.excalidraw.svg)
 
 
 [Nop]: https://github.com/entropy-cloud/nop-entropy
