@@ -2,19 +2,18 @@
 interface Props {
   width: string;
   height: string;
+  class: string;
 }
 
-const { width = "128px", height = "128px" } = Astro.props;
+const { width = "128px", height = "128px", class: cls } = Astro.props;
 ---
 
-<div class="card">
+<div class="card" class:list={cls}>
   <slot />
 </div>
 <style define:vars={{ width, height }}>
   .card {
     border: double 4px;
-    color: darkcyan;
-    background: yellow;
     width: var(--width);
     height: var(--height);
     overflow: hidden;
