@@ -13,6 +13,9 @@ const { width = "128px", height = "128px", class: cls } = Astro.props;
 </div>
 <style define:vars={{ width, height }}>
   .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: double 4px;
     width: var(--width);
     height: var(--height);

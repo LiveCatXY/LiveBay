@@ -4,6 +4,8 @@ import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+
+const lineCls = 'flex flex-col items-center'
 ---
 
 <!doctype html>
@@ -14,15 +16,17 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
   <body>
     <Header />
     <main class="flex justify-center">
-        <BaseCard width="400px" height="400px" class="bg-yellow-100 text-cyan-800">
-        <div class="flex flex-col items-center text-4xl">
+        <BaseCard width="400px" height="400px" class="text-4xl bg-yellow-100 text-cyan-800">
+          <div class={lineCls}>
           <div class="text-2xl">☯️价值体系:生行知乐循环💞</div>
-          <div class="flex flex-col items-center bg-cyan-300">
-            <div class="flex flex-col items-center bg-yellow-300">
-              <div class="bg-orange-300 w-fit">😶‍🌫️活力生命🍑</div>
-              <div>🧑‍🌾新自然小农🍚</div>
+          <div class={`${lineCls} bg-pink-300`}>
+            <div class={`${lineCls} bg-cyan-300`}>
+              <div class={`${lineCls} bg-yellow-300`}>
+                <div class="bg-orange-300 w-fit">😶‍🌫️活力生命🍑</div>
+                <div>🧑‍🌾新自然小农🍚</div>
+              </div>
+              <div>🧑‍💻轻灵自主码农🤖</div>
             </div>
-            <div>🧑‍💻轻灵自主码农🤖</div>
             <div>🧚逍遥游自在哲农🌼</div>
           </div>
         </div>
