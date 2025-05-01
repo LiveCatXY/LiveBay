@@ -25,7 +25,5 @@ const dc = () =>
 export const collections = {
   life: dc(),
   xyy: dc(),
-  lab: dc(),
-  do: dc(),
   // docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
 };

@@ -4,7 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import db from "@astrojs/db";
 import markdoc from "@astrojs/markdoc";
-import starlight from "@astrojs/starlight";
 import vue from "@astrojs/vue";
 import react from "@astrojs/react";
 import * as compiler from "vue/compiler-sfc";

@@ -5,7 +5,5 @@ export const SITE_TITLE = "🏡新自然逍遥湾🏝️";
 export const SITE_DESCRIPTION = "知行天人合一安护生命力";
 export const COLLECTION_MAP = {
   life: "😶‍🌫️猫生堡🍑",
-  do: "🧑‍🌾猫干饭🍚",
-  lab: "🧑‍💻猫工社🤖",
   xyy: "🧚猫逍遥🌼",
 };
