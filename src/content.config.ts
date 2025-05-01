@@ -1,6 +1,4 @@
 import { defineCollection, z } from "astro:content";
-// import { docsLoader } from "@astrojs/starlight/loaders";
-// import { docsSchema } from "@astrojs/starlight/schema";
 
 const commonSchema = z.object({
   title: z.string().max(30),
@@ -25,5 +23,4 @@ const dc = () =>
 export const collections = {
   life: dc(),
   xyy: dc(),
-  // docs: defineCollection({ loader: docsLoader(), schema: docsSchema() }),
 };
