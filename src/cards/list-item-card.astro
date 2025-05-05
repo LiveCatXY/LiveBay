@@ -49,7 +49,7 @@ function star(post: Post) {
 
 function isFadePost() {
   if (!fadeOld || post.data.top) return false;
-  return Date.now() - post.data.pubDate.getTime() > 3600000 * 2400;
+  return Date.now() - post.data.publishDate.getTime() > 3600000 * 2400;
 }
 ---
 
@@ -58,7 +58,7 @@ function isFadePost() {
       {post.data.title}
     </div>
     <p class="date">
-      <FormattedDate date={post.data.pubDate} />
+      <FormattedDate date={post.data.publishDate} />
       {
         post.data.updatedDate && (
           <>

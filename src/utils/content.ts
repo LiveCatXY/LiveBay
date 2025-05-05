@@ -13,7 +13,7 @@ export type LevelItem = [Level, number];
 
 export async function getPosts(collection: Collection) {
   return (await getCollection(collection)).sort(
-    (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf(),
+    (a, b) => a.data.publishDate.valueOf() - b.data.publishDate.valueOf(),
   );
 }
 

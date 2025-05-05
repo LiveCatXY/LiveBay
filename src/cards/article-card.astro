@@ -7,7 +7,7 @@ interface Props {
 }
 
 const {
-  data: { title, subTitle, tags, level, pubDate, updatedDate, originDate, heroImage },
+  data: { title, subTitle, tags, level, publishDate, updatedDate, originDate, heroImage },
 } = Astro.props;
 ---
 
@@ -20,7 +20,7 @@ const {
       <h2>{title}</h2>
       <h4>{subTitle}</h4>
       <div class="date">
-        <FormattedDate date={pubDate} />
+        <FormattedDate date={publishDate} />
         {
           updatedDate && (
             <>
