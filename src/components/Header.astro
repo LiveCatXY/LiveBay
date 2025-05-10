@@ -1,6 +1,6 @@
 ---
+import { COLLECTION_MAP, SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, COLLECTION_MAP } from "../consts";
 ---
 
 <header>
@@ -10,13 +10,17 @@ import { SITE_TITLE, SITE_DESCRIPTION, COLLECTION_MAP } from "../consts";
       <a href="/" class="text-base">{SITE_DESCRIPTION}</a>
     </div>
     <div class="tabs">
-      <HeaderLink href="/life">{COLLECTION_MAP.life}</HeaderLink>
-      <HeaderLink href="/xyy">{COLLECTION_MAP.xyy}</HeaderLink>｜
-      <HeaderLink href="https://lushisang.com" class="out">🧑猫主站🐈</HeaderLink>
-      <HeaderLink href="https://hub.lushisang.com" class="out">👀猫缘形⭕️</HeaderLink>
-      <HeaderLink href="https://lab.lushisang.com" class="out">🧑‍💻猫工社🤖</HeaderLink>
-      <HeaderLink href="https://do.lushisang.com" class="out">🧑‍🌾猫干饭🍚</HeaderLink>｜
-      <HeaderLink href="https://catlib.lushisang.com" class="out">🐱三猫书院📚</HeaderLink>
+      <div>
+        <HeaderLink href="/life">{COLLECTION_MAP.life}</HeaderLink>
+        <HeaderLink href="/xyy">{COLLECTION_MAP.xyy}</HeaderLink>
+      </div>
+      <div>
+        <HeaderLink href="https://lushisang.com" class="out">🧑猫主站🐈</HeaderLink>
+        <HeaderLink href="https://hub.lushisang.com" class="out">👀猫缘形⭕️</HeaderLink>
+        <HeaderLink href="https://lab.lushisang.com" class="out">🧑‍💻猫工社🤖</HeaderLink>
+        <HeaderLink href="https://do.lushisang.com" class="out">🧑‍🌾猫干饭🍚</HeaderLink>
+        <HeaderLink href="https://catlib.lushisang.com" class="out">🐱三猫书院📚</HeaderLink>
+      </div>
     </div>
   </nav>
 </header>
@@ -42,7 +46,9 @@ import { SITE_TITLE, SITE_DESCRIPTION, COLLECTION_MAP } from "../consts";
         margin: 4px 0;
       }
       .tabs {
-        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
         a {
           margin: 0 8px;
           border-bottom: 2px solid transparent;

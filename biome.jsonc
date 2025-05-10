@@ -1,10 +1,11 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "organizeImports": {
-    "enabled": true
+    "enabled": true,
   },
   "formatter": {
-    "indentStyle": "space"
+    "indentStyle": "space",
+    "indentWidth": 2,
   },
   "overrides": [
     {
@@ -13,10 +14,10 @@
         "rules": {
           "style": {
             "useConst": "off",
-            "useImportType": "off"
-          }
-        }
-      }
-    }
-  ]
+            "useImportType": "off",
+          },
+        },
+      },
+    },
+  ],
 }
