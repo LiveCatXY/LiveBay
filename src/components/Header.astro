@@ -9,12 +9,12 @@ import HeaderLink from "./HeaderLink.astro";
       <a href="/">{SITE_TITLE}</a>
       <a href="/" class="text-base">{SITE_DESCRIPTION}</a>
     </div>
-    <div class="tabs">
+    <div class="tabs @container">
       <div>
         <HeaderLink href="/life">{COLLECTION_MAP.life}</HeaderLink>
         <HeaderLink href="/xyy">{COLLECTION_MAP.xyy}</HeaderLink>
       </div>
-      <div>
+      <div class="@max-sm:hidden">
         【<HeaderLink href="https://lushisang.com" class="out">🧑猫主站🐈</HeaderLink>】
         【
         <HeaderLink href="https://lib.lushisang.com" class="out">🧚逍遥书院📚</HeaderLink>：
@@ -25,7 +25,7 @@ import HeaderLink from "./HeaderLink.astro";
         <HeaderLink href="https://lab.lushisang.com" class="out">🧑‍💻几何科工社🤖</HeaderLink>：
         <HeaderLink href="https://do.lushisang.com" class="out">🧑‍🌾猫干饭🍚</HeaderLink>
         】
-      </div>
+    </div>
     </div>
   </nav>
 </header>
