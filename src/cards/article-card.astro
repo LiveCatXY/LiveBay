@@ -7,7 +7,16 @@ interface Props {
 }
 
 const {
-  data: { title, subTitle, tags, level, publishDate, updatedDate, originDate, heroImage },
+  data: {
+    title,
+    subTitle,
+    tags,
+    level,
+    publishDate,
+    updatedDate,
+    originDate,
+    heroImage,
+  },
 } = Astro.props;
 ---
 
@@ -52,8 +61,13 @@ const {
 
 <style>
   article {
-      overflow: auto;
-      border: 1px solid rgb(var(--gray-light));
+    overflow: auto;
+    border: 1px solid rgb(var(--gray-light));
+    ol, ul {
+      list-style: revert;
+      padding: revert;
+      margin: revert;
+    }
   }
   .hero-image {
     width: 100%;
