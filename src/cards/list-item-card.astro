@@ -20,7 +20,14 @@ const {
   fadeOld = false,
 } = Astro.props;
 
-const bg = ['none', 'lightyellow', 'yellow', 'greenyellow', 'springgreen', 'cyan'][post.data.top];
+const bg = [
+  "none",
+  "lightyellow",
+  "yellow",
+  "greenyellow",
+  "springgreen",
+  "cyan",
+][post.data.top];
 
 function border(post: Post) {
   return [
@@ -53,7 +60,7 @@ function isFadePost() {
 }
 ---
 
-<a class:list={["post relative", ...border(post), { fading: isFadePost() }]} href={`/${collection}/${post.slug}`}>
+<a class:list={["post relative", ...border(post), { fading: isFadePost() }]} href={`/${collection}/${post.id}`}>
     <div class:list={["title", { '!text-fuchsia-500': post.data.level >= 3 }]}>
       {post.data.title}
     </div>

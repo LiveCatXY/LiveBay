@@ -1,4 +1,5 @@
 import { defineCollection, z } from "astro:content";
+import { glob } from "astro/loaders";
 
 const commonSchema = z.object({
   title: z.string().max(30),
@@ -14,13 +15,17 @@ const commonSchema = z.object({
   heroImage: z.string().optional(),
 });
 
-const dc = () =>
-  defineCollection({
-    type: "content",
+function defineCollectionBy(category: string) {
+  return defineCollection({
+    loader: glob({
+      pattern: "**/[^_]*.{md,mdx}",
+      base: `./content/${category}`,
+    }),
     schema: commonSchema,
   });
+}
 
 export const collections = {
-  life: dc(),
-  xyy: dc(),
+  life: defineCollectionBy("life"),
+  xyy: defineCollectionBy("xyy"),
 };

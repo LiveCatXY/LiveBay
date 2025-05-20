@@ -1,23 +1,23 @@
 ---
-import { getCollection } from "astro:content";
-import MusicPlayer from 'astro-netease-player/MusicPlayer.astro';
+import { getCollection, render } from "astro:content";
+import MusicPlayer from "astro-netease-player/MusicPlayer.astro";
 
 import ContentLayout from "@/layouts/content-layout.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("life");
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
 
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <ContentLayout
-  slug={post.slug}
+  slug={post.id}
   collection={post.collection}
   data={post.data}
 >
