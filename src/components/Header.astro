@@ -11,22 +11,16 @@ import HeaderLink from "./HeaderLink.astro";
     </div>
     <div class="tabs @container">
       <div>
-        【
-        <HeaderLink href="/life">{COLLECTION_MAP.life}</HeaderLink>
-        <HeaderLink href="/xyy">{COLLECTION_MAP.xyy}</HeaderLink>
-        】
+        <HeaderLink href="/life">【{COLLECTION_MAP.life}</HeaderLink>
+        <HeaderLink href="/xyy">{COLLECTION_MAP.xyy}】</HeaderLink>
       </div>
       <div class="@max-sm:hidden">
-        【<HeaderLink href="https://lushisang.com" class="out">🧑猫主站🐈</HeaderLink>】
-        【
-        <HeaderLink href="https://lab.lushisang.com" class="out">🧑‍💻猫工社🤖</HeaderLink>：
-        <HeaderLink href="https://do.lushisang.com" class="out">🧑‍🌾猫干饭🍚</HeaderLink>
-        】
-        【
-        <HeaderLink href="https://lib.lushisang.com" class="out">🧚猫书院📚</HeaderLink>：
+        <HeaderLink href="https://lushisang.com" class="out">【🧑猫主站🐈】</HeaderLink>
+        <HeaderLink href="https://lab.lushisang.com" class="out">【🧑‍💻猫工社🤖：</HeaderLink>
+        <HeaderLink href="https://do.lushisang.com" class="out">🧑‍🌾猫干饭🍚】</HeaderLink>
+        <HeaderLink href="https://lib.lushisang.com" class="out">【🧚猫书院📚：</HeaderLink>
         <HeaderLink href="https://hub.lushisang.com" class="out">👀猫观世⭕️</HeaderLink>
-        <HeaderLink href="https://art.lushisang.com" class="out">🧑‍🎨猫公艺🎨</HeaderLink>
-        】
+        <HeaderLink href="https://art.lushisang.com" class="out">🧑‍🎨猫公艺🎨】</HeaderLink>
     </div>
     </div>
   </nav>
@@ -57,11 +51,7 @@ import HeaderLink from "./HeaderLink.astro";
         display: flex;
         justify-content: space-between;
         a {
-          margin: 0 8px;
-          border-bottom: 2px solid transparent;
-          .active {
-            border-bottom-color: var(--accent);
-          }
+          border-bottom: 2px solid;
         }
       }
     }
