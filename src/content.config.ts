@@ -18,8 +18,8 @@ const commonSchema = z.object({
 function defineCollectionBy(category: string) {
   return defineCollection({
     loader: glob({
-      pattern: "**/[^_]*.{md,mdx}",
       base: `./content/${category}`,
+      pattern: "**/[^_]*.{md,mdx}",
     }),
     schema: commonSchema,
   });
