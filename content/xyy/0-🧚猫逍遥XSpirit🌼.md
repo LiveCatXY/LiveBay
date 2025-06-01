@@ -1,5 +1,5 @@
 ---
-title: 🧚猫逍遥XSpirit🌼
+title: 🧚猫逍遥梦想空间XSpirit🌼
 subTitle: ☀️自在激发有创意个性的生命力，Think Live，XSpirit，乐
 publishDate: 2025-04-22
 originDate: 2021-09-28
