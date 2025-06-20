@@ -3,7 +3,7 @@ import { glob } from "astro/loaders";
 
 const commonSchema = z.object({
   title: z.string().max(30),
-  subTitle: z.string().max(40).optional(),
+  subTitle: z.string().optional(),
   tags: z.string().array().default([]),
   level: z.number().default(0),
   top: z.number().default(0),
