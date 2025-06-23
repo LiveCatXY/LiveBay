@@ -3,9 +3,9 @@ media:
   output: /
 content:
   - name: life
-    label: Life
+    label: 猫生堡
     type: collection
-    path: src/content/life
+    path: content/life
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: subTitle, label: Sub Title, type: string }
@@ -16,10 +16,10 @@ content:
       - { name: top, label: Top, type: number }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
-  - name: do
-    label: Do
+  - name: xyy
+    label: 逍遥游
     type: collection
-    path: src/content/do
+    path: content/xyy
     fields:
       - { name: title, label: Title, type: string, required: true }
       - { name: subTitle, label: Sub Title, type: string }
