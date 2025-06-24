@@ -1,4 +1,3 @@
-import db from "@astrojs/db";
 import markdoc from "@astrojs/markdoc";
 import mdx from "@astrojs/mdx";
 import react from "@astrojs/react";
@@ -14,7 +13,6 @@ export default defineConfig({
   site: "https://blog.lushisang.com",
 
   integrations: [
-    db(),
     mdx(),
     sitemap(),
     markdoc(),
