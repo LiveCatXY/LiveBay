@@ -1,0 +1,52 @@
+# 🤼‍Society
+
+Thoughts:
+1. 未来房价走势：短期看政策，中期看土地，长期看人口。
+2. 中国将成为万年老二，以稳定为主。美国继续当世界老大，以创新为主。
+3. 未来大城市是趋势，农村和中小城市的人口继续集中于大城市及周边。
+4. 也许长期是乐观的，但中期是悲观的，短期是混乱的。 
+5. 市场经济下的三种品类：
+   1. 基本款：保障品，市场竞争失败者的基本生存保障。
+   2. 便捷品：生产者生活等非专业领域需求的商品。
+   3. 专业品：生产者生产市场商品必需的专业设备等。
+
+References: 
+1. [TRADING ECONOMICS](http://zh.tradingeconomics.com/)
+2. [CEIC](https://www.ceicdata.com/)
+3. [Google Earth Engine](https://earthengine.google.com/timelapse/)
+4. [国地机构](https://www.zhihu.com/org/guo-di-ji-gou/posts)
+5. [M1M2走势图](http://value500.com/m1.asp)
+
+Favorites:
+1. [哔哩哔哩收藏夹：社会人文](https://space.bilibili.com/3987242/#/favlist?fid=1702362)
+2. [二战各国人员伤亡分析对比](https://www.bilibili.com/video/av9418573/)
+3. [活的像只鼠，幸福在何处](https://www.bilibili.com/video/av16732210/)
+4. [统一、效率、平衡：大国的城市化道路](http://www.bilibili.com/video/av3660411/)
+5. [城市化.Urbanized.2011](http://www.bilibili.com/video/av1357100/)
+6. [BBC纪录片 地球能容纳多少人](https://v.qq.com/x/cover/xoce70wo8zlt3j9/f0015b2bdlf.html)
+7. [BBC 文明](https://www.bilibili.com/bangumi/play/ep202005)
+8. [7.3 Billion People, One Building](https://waitbutwhy.com/2015/03/7-3-billion-people-one-building.html)
+
+Nation::
+1. [《中国国家治理的制度逻辑》](https://book.douban.com/subject/26901114/)，[电子书](https://web.stanford.edu/~xgzhou/zhou_book2017.pdf)
+2. [《国家的常识》](https://book.douban.com/subject/22806583/)
+3. [《家庭、私有制和国家的起源》](https://book.douban.com/subject/1247769/)
+
+Economy:
+1. [三十分钟看懂经济机器如何运转](https://www.bilibili.com/video/av8482665)
+2. [1978至2017年全国前十名城市GDP可视化历程](https://www.bilibili.com/video/av27557224)
+3. [许小年振聋发聩的演讲：中国企业的苦日子才刚刚开始](https://zhuanlan.zhihu.com/p/40133241)
+
+Enterprise:
+1. [天眼查](https://www.tianyancha.com/)
+2. [国家企业信用信息公示系统](http://www.gsxt.gov.cn/index.html)
+3. [启信宝](http://www.qixin.com/)
+
+Urbanization:
+1. [中国每天有80个村庄消失这种说法靠谱吗？](https://www.zhihu.com/question/35912782)
+2. [《大国大城》](https://book.douban.com/subject/26824237/)
+3. [统一、效率、平衡：大国的城市化道路](http://www.bilibili.com/video/av3660411/)
+4. [城市化.Urbanized.2011](http://www.bilibili.com/video/av1357100/)
+5. [为什么你要拼了命去大城市生活](https://www.zhihu.com/lives/specials/868838937001623552)
+6. [What if Everyone Lived in Just One City?](https://www.youtube.com/watch?v=r_iNRGac_uM)
+
